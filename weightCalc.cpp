@@ -13,7 +13,7 @@ double weight;
 double finalweight;
 std::cout<<"You have the choice of 7 planets: \n"<< "Mercury - 1\n Venus - 2 \n Mars- 3\n Jupiter - 4\n Saturn - 5\n Uranus - 6\n Neptune - 7\n"<<"Please enter the number of the planet you want to calculate the weight of: ";
 std::cin>>planet;
-std::cout<<"Enter the weight of the object you want to check the weight of in your planet: \n";
+std::cout<<"Enter the weight of the object you want to check the weight of in your planet: ";
 std::cin>>weight;
 if(planet == 1)planet = mercury;
 else if(planet == 2)planet = venus;
