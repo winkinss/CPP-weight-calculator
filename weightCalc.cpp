@@ -24,6 +24,7 @@ else if(planet == 6)planet = uranus;
 else if(planet == 7)planet = neptune;
 else{
   std::cout<<"ERROR!! enter the right number of your planet.";
+  return 1;
 };
  finalweight = planet*weight;
  std::cout<<"The weight is: "<<finalweight;
